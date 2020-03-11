@@ -51,7 +51,7 @@ namespace Account
             Console.WriteLine($"----------" + $"\n{password} - your password");
             Console.Read();
         }
-        private static void Main()
+        public void Main()
         {
             AccountLogin account = new AccountLogin();
 
